@@ -1,0 +1,1 @@
+Error: Transaction cannot be authorized due to insufficient funds: t1

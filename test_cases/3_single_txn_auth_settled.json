@@ -1,0 +1,17 @@
+{
+    "creditLimit": 1000,
+    "events": [
+        {
+            "eventType": "TXN_AUTHED",
+            "eventTime": 1,
+            "txnId": "t1",
+            "amount": 123
+        },
+        {
+            "eventType": "TXN_SETTLED",
+            "eventTime": 2,
+            "txnId": "t1",
+            "amount": 456
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Available credit: $956
+Payable balance: $44
+
+Pending transactions:
+
+Settled transactions:
+p1: -$456 @ time 5 (finalized @ time 6)
+t2: $500 @ time 2 (finalized @ time 4)

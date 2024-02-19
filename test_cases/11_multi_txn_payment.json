@@ -1,0 +1,39 @@
+{
+    "creditLimit": 1000,
+    "events": [
+        {
+            "eventType": "TXN_AUTHED",
+            "eventTime": 1,
+            "txnId": "t1",
+            "amount": 123
+        },
+        {
+            "eventType": "TXN_AUTHED",
+            "eventTime": 2,
+            "txnId": "t2",
+            "amount": 456
+        },
+        {
+            "eventType": "TXN_AUTH_CLEARED",
+            "eventTime": 3,
+            "txnId": "t1"
+        },
+        {
+            "eventType": "TXN_SETTLED",
+            "eventTime": 4,
+            "txnId": "t2",
+            "amount": 500
+        },
+        {
+            "eventType": "PAYMENT_INITIATED",
+            "eventTime": 5,
+            "txnId": "p1",
+            "amount": -456
+        },
+        {
+            "eventType": "PAYMENT_POSTED",
+            "eventTime": 6,
+            "txnId": "p1"
+        }
+    ]
+}
